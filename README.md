@@ -29,24 +29,23 @@ const gsignal = require("./gsignal.js");
 gsignal.boot(gsignal.database, true);
 
 gsignal.get('/signin', function(req, res) {
-	
+	// http router	
 });
 
 gsignal.get('/signup', function(req, res) {
-
+	// http router
 });
 
-
 gsignal.get('/logout', function(req, res) {
-
+	// http router
 });
 
 gsignal.get('/dash', function(req, res) {
-
+	// http router
 });
 
 gsignal.post('/api', function(req, res) {
-	
+	// http router
 });
 
 gsignal.listen(8080);
